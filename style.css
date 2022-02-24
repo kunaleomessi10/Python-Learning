@@ -1,0 +1,12 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+
+header{
+    background-image: url('/Users/kunaleomessi10/my-project/Python-Learning-1/gym-sample.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
