@@ -29,6 +29,10 @@ header{
     font-size: 20px;
 }
 
+.homebtn a {
+    border: 1px solid grey ;
+    background-color: white;
+}
 
 .nav-menu li a:hover {
     border: 1px solid grey;
@@ -59,8 +63,11 @@ h1 {
 .bttn {
     border :1px solid white;
     padding: 10px 30px;
-    color: green;
+    color: white;
     font-family: "Verdana" , "sans-serif";
     font-size: 22px;
     text-decoration: none;
+}
+.adopt a:hover {
+    background-color: burlywood;
 }
