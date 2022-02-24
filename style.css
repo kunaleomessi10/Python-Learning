@@ -53,3 +53,18 @@ h1 {
     text-align: center;
     margin-top: 275px;
 }
+
+.adopt {
+
+    margin-top: 30px;
+    margin-left: 540px;
+}
+
+.bttn {
+    border :1px solid white;
+    padding: 10px 30px;
+    color: green;
+    font-family: "Verdana" , "sans-serif";
+    font-size: 22px;
+    text-decoration: none;
+}
