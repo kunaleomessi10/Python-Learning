@@ -48,10 +48,10 @@ header{
 
 h1 {
     color: white;
-    font-size: 50px;
+    font-size: 60px;
     font-family: "Verdana", "sans-serif";
-    text-align: center;
-    margin-top: 275px;
+    text-align: right;
+    margin-top: 300px;
 }
 
 .adopt {
