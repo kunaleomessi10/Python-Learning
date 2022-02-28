@@ -1,73 +1,62 @@
-*
-{
-    margin:0;
-    padding:0;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
-header{
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('/Users/kunaleomessi10/my-project/Python-Learning-1/Fitness.jpg');
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
+.test{
+    display: flex;
+    align-items: center;
+    padding: 20px; 
 }
-
-.nav-menu {
-    float: right;
-    list-style: none;
-    margin-top: 30px;
-}
-
-.nav-menu li {
-    display: inline-block;
-}
-
-.nav-menu li a {
-    color: turquoise;
-    text-decoration: none;
-    padding: 5px 20px;
-    font-family: "Verdana", "sens-serif";
-    font-size: 20px;
-}
-
-.homebtn a {
-    border: 1px solid grey ;
-    background-color: white;
-}
-
-.nav-menu li a:hover {
-    border: 1px solid grey;
-    background-color: white;
-}
-
-.tagline {
-    position: absolute;
-    width: 1200px;
-    margin-top: 0;
-    margin-left: 0;
-}
-
-h1 {
-    color: white;
-    font-size: 60px;
-    font-family: "Verdana", "sans-serif";
+nav{
+    flex: 1;
     text-align: right;
-    margin-top: 300px;
 }
-
-.adopt {
-
-    margin-top: 30px;
-    margin-left: 540px;
+nav ul{
+    display: inline-block;
+    list-style-type: none;
 }
-
-.bttn {
-    border :1px solid white;
-    padding: 10px 30px;
-    color: white;
-    font-family: "Verdana" , "sans-serif";
-    font-size: 22px;
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
     text-decoration: none;
+    color: black;
 }
-.adopt a:hover {
-    background-color: burlywood;
+p{
+    color: white;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-2 img{
+    max-width: 100%;
+    padding: 50px 0;
+}
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.btn {
+    display: inline-block;
+    background :olivedrab;
+    color: white;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
 }
