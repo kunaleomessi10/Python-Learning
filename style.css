@@ -12,6 +12,12 @@ body {
     align-items: center;
     padding: 20px; 
 }
+.navbar li {
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
 nav{
     flex: 1;
     text-align: right;
@@ -24,6 +30,23 @@ nav ul li{
     display: inline-block;
     margin-right: 20px;
 }
+
+nav li a:hover,
+nav li a.under{
+    color: darkred;
+}
+
+nav li a.under::after,
+nav li a:hover::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: darkred;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
 a{
     text-decoration: none;
     color: black;
@@ -45,11 +68,11 @@ p{
 }
 .col-2{
     flex-basis: 50%;
-    min-width: 400px;
+    min-width: 300px;
 }
 .col-2 img{
-    max-width: 105%;
-    padding: 79px 0;
+    max-width: 100%;
+    padding: 50px 0;
 }
 .col-2 h1{
     font-size: 50px;
@@ -70,7 +93,7 @@ p{
     background: #563434;
 }
 .header {
-    background: radial-gradient(rgb(146, 43, 43),#36bd7e);
+    background: radial-gradient(#fff,#ffd6d6);
 }
 
 .header row {
@@ -124,6 +147,7 @@ p{
     left: 50%;
     transform: translateX(-50%);
 }
+
 h4 {
     color: grey;
     font-weight: normal;
@@ -140,7 +164,6 @@ h4 {
 .menu-icon {
     width: 28px;
     margin-left: 20px;
-    display: none
 }
 
 @media only screen and (max-width: 800px){
@@ -150,6 +173,8 @@ h4 {
         left: 0;
         background: #333;
         width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
     }
     nav ul li{
         display: block;
@@ -165,3 +190,30 @@ h4 {
         cursor: pointer;
     }
 }
+/*---Media query for less than 600 screen size---*/
+@media only screen and (max-width:600px){
+    .row{
+        text-align: center;
+    }
+    .col-2, .col-3, .col-4 {
+        flex-basis: 100%;
+    }
+}
+    
+
+
+#product1 {
+    text-align: center; 
+ }
+ 
+ #product1 .pro {
+     width: 23%;
+     min-width: 250px;
+     padding: 10px 12px;
+     border: 1px solid #ccefd0;
+ }
+ 
+ #product .pro img{
+     width: 100%;
+     border-radius: 20px;
+ }
