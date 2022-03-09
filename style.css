@@ -114,7 +114,7 @@ p{
 
 .smallcontainer{
     max-width: 1080px;
-    margin: auto;
+    margin-left: 150px;
     padding-left: 25px;
     padding-right: 25px;
 }
@@ -166,6 +166,16 @@ h4 {
     margin-left: 20px;
     display: none;
 }
+
+#newsletter{
+    margin-left: 400px;
+}
+#font{
+    font-size: 25px;
+}
+
+
+
 
 @media only screen and (max-width: 800px){
     nav ul{
@@ -314,11 +324,23 @@ ul{
 
 
 
+#details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+#details {
+    width: 40%;
+}
 
+#contact-details .details span{
+    font-size: 12px;
+}
 
-
-
+#contact-details .details h2{
+    font-size: 22px
+}
 
 
 
