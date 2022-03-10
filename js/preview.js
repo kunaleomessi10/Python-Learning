@@ -1,4 +1,42 @@
 
+var data = [
+    {
+        title : "Dumbell Set",
+        path: './images/Dumbbell-set.jpeg'
+    },
+
+    {
+        title : "Dumbell Set",
+        path: './images/Dumbbell-set.jpeg'
+    },
+
+    {
+        title : "Dumbell Set",
+        path: './images/Dumbbell-set.jpeg'
+    },
+
+    {
+        title : "Dumbell Set",
+        path: './images/Dumbbell-set.jpeg'
+    },
+
+    {
+        title : "Dumbell Set",
+        path: './images/Dumbbell-set.jpeg'
+    },
+
+    {
+        title : "Dumbell Set",
+        path: './images/Dumbbell-set.jpeg'
+    },
+
+    {
+        title : "Dumbell Set",
+        path: './images/Dumbbell-set.jpeg'
+    }
+
+];
+
 $(document).ready(()=>{
 getEquipments()
 });

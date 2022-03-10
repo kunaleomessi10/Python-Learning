@@ -1,0 +1,55 @@
+[
+    {
+        "title" : "Dumbell Set",
+        "path": "./images/Dumbbell-set.jpeg",
+        "page": "./html/preview_item.html",
+        "rating" : 3,
+        "id": "equipment_one"
+     },
+    
+        {
+            "title" : "Dumbell Set",
+            "path": "./images/Dumbbell-set.jpeg",
+            "page": "./html/preview_item.html",
+            "rating" : 2
+        },
+    
+        {
+            "title" : "Dumbell Set",
+            "path": "./images/Dumbbell-set.jpeg",
+            "page": "./html/preview_item.html",
+        "rating" : 5
+        },
+    
+        {
+            "title" : "Dumbell Set",
+            "path": "./images/Dumbbell-set.jpeg",
+            "page": "./html/preview_item.html"
+        },
+        {
+            "title" : "Dumbell Set",
+            "path": "./images/Dumbbell-set.jpeg",
+            "page": "./html/preview_item.html"
+        },
+    
+        {
+            "title" : "Dumbell Set",
+            "path": "./images/Dumbbell-set.jpeg",
+            "page": "./html/preview_item.html"
+        },
+        {
+            "title" : "Dumbell Set",
+            "path": "./images/Dumbbell-set.jpeg",
+            "page": "./html/preview_item.html"
+        },
+        {
+            "title" : "Dumbell Set",
+            "path": "./images/Dumbbell-set.jpeg",
+            "page": "./html/preview_item.html"
+        },
+        {
+            "title" : "Dumbell Set",
+            "path": "./images/Dumbbell-set.jpeg",
+            "page": "./html/preview_item.html"
+        }
+    ]
