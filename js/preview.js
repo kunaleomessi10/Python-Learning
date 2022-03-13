@@ -1,11 +1,6 @@
 $(document).ready(() => {
-    var path = sessionStorage.getItem("path")
-    if (path === 'one') {
-        console.log("******" + path)
-        composePreviewHtml(path)
-    } else if (path === "two") {
-
-    }
+    let path = sessionStorage.getItem("path")
+    composePreviewHtml(path)
 });
 
 function composePreviewHtml(id) {
@@ -32,8 +27,11 @@ function composePreviewHtml(id) {
 }
 
 function addToCart(id) {
-    item = {}
-    // item[id] = { "id" : id, "quantity" : }
-    localStorage.cart = item
+    let cart = [];
+    if (localStorage.getItem('cart')) {
+        cart = JSON.parse(localStorage.getItem('cart'));
+    }
+    cart.push({'id': id});
+    localStorage.setItem('cart', JSON.stringify(cart));
 
 }
