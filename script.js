@@ -6,7 +6,7 @@ function getEquipments() {
     $.ajax({
         url: "assets/json/equipments.json",
         dataType: "json",
-        function(data) {
+        success: function(data) {
             data.forEach((gymItem) => {
                 $('.gym-row').append(` <div class="col-3">
        <a href=${gymItem.page}><img src=${gymItem.path}> </a>
