@@ -4,43 +4,55 @@
     "path": "./images/Dumbbell-set.jpeg",
     "page": "./pages/preview_item.html",
     "rating": 3,
-    "id": "equipment_one"
+    "id": "one"
   },
   {
-    "title": "Dumbell Set",
-    "path": "./images/Dumbbell-set.jpeg",
+    "title": "5-50KG Dumbbell Bundle",
+    "path": "./images/5-50KG Dumbbell Bundle.png",
     "page": "./pages/preview_item.html",
-    "rating": 2
+    "rating": 3.5,
+    "id": "two"
   },
   {
-    "title": "Dumbell Set",
-    "path": "./images/Dumbbell-set.jpeg",
+    "title": "7ft Olympic Bar",
+    "path": "./images/7ft-Olympic-Bar.jpeg",
     "page": "./pages/preview_item.html",
-    "rating": 5
+    "rating": 5,
+    "id": "three"
   },
   {
-    "title": "Dumbell Set",
-    "path": "./images/Dumbbell-set.jpeg",
-    "page": "./pages/preview_item.html"
+    "title": "150kg Bumper Plate Set & 7ft Bar",
+    "path": "./images/150kg-Bumper-Plate-Set-&-7ft-Bar.jpeg",
+    "page": "./pages/preview_item.html",
+    "rating": 4.5,
+    "id": "four"
   },
   {
-    "title": "Dumbell Set",
-    "path": "./images/Dumbbell-set.jpeg",
-    "page": "./pages/preview_item.html"
+    "title": "Bolt Strength Dumbbells",
+    "path": "./images/Bolt-Strength-Dumbbells.png",
+    "page": "./pages/preview_item.html",
+    "rating": 4,
+    "id": "five"
   },
   {
-    "title": "Dumbell Set",
-    "path": "./images/Dumbbell-set.jpeg",
-    "page": "./pages/preview_item.html"
+    "title": "Bolt Strength Ez Curl Barbell",
+    "path": "./images/Bolt-Strength-Ez-Curl-Barbell.jpeg",
+    "page": "./pages/preview_item.html",
+    "rating": 4.5,
+    "id": "six"
   },
   {
-    "title": "Dumbell Set",
-    "path": "./images/Dumbbell-set.jpeg",
-    "page": "./pages/preview_item.html"
+    "title": "Bolt Strength Ez Curl Barbell",
+    "path": "./images/Bolt-Strength-Ez-Curl-Barbell.jpeg",
+    "page": "./pages/preview_item.html",
+    "rating": 4,
+    "id": "seven"
   },
   {
-    "title": "Dumbell Set",
-    "path": "./images/Dumbbell-set.jpeg",
-    "page": "./pages/preview_item.html"
+    "title": "Bolt strength home use adjustable bench",
+    "path": "./images/Bolt-strength-home-use-adjustable-bench.jpeg",
+    "page": "./pages/preview_item.html",
+    "rating": 3.5,
+    "id": "eight"
   }
 ]
