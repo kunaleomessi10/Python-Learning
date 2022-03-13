@@ -1,0 +1,10 @@
+{
+    "title" : "Dumbell Set",
+    "path": "./images/Dumbbell-set.jpeg",
+    "page": "./html/preview_item.html",
+    "rating" : 3,
+    "id": "one",
+    "price" : "€160.00",
+    "description" : "These fixed Ez Curl Barbells are the perfect addition to any home or commercial gym.They allow for a multitude of exercises and have the perfect grip for performing exercises like Bicep Curls or Skull-crushers to really isolate your Arms without putting strain on your wrists."
+
+ }

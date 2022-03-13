@@ -6,11 +6,11 @@ function getEquipments() {
     $.ajax({
         url: "assets/json/equipments.json",
         dataType: "json",
-        success: function(data) {
+        success: function (data) {
             data.forEach((gymItem) => {
                 $('.gym-row').append(` <div class="col-3">
        <a href=${gymItem.page}><img src=${gymItem.path}> </a>
-       <a  onClick="loadPreviewPage(gymItem.id); return false;" href=${gymItem.page}  class="mylink" >
+       <button type="button" id="button" onclick="loadPreviewPage('${gymItem.page}','${gymItem.id}')" > Preview ${gymItem.title} </button>
        <h4>${gymItem.title}</h4></a>
        <div class="rating">
            <i class="fas fa-star"></i>
@@ -27,8 +27,7 @@ function getEquipments() {
     });
 }
 
-function loadPreviewPage(id) {
-    console.log("******** " + id)
-    window.location = "./html/preview_item.html?id=" + id
-
+function loadPreviewPage(page, id) {
+    sessionStorage.setItem("path",id)
+    window.location = page
 }
