@@ -1,7 +1,7 @@
 {
     "title": "150kg Bumper Plate Set & 7ft Bar",
-    "path": "./images/150kg-Bumper-Plate-Set-&-7ft-Bar.jpeg",
-    "page": "./pages/preview_item.html",
+    "path": "../images/150kg-Bumper-Plate-Set-&-7ft-Bar.jpeg",
+    "page": "../pages/preview_item.html",
     "rating": 4.5,
     "id": "four",
     "price" : "€184.00",

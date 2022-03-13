@@ -1,7 +1,7 @@
 {
     "title": "Fleck Bumper Plates",
-    "path": "./images/Fleck-Bumper-Plates.png",
-    "page": "./pages/preview_item.html",
+    "path": "../images/Fleck-Bumper-Plates.png",
+    "page": "../pages/preview_item.html",
     "rating": 4,
     "id": "seven",
     "price" : "€450.00",

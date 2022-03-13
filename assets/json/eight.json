@@ -1,7 +1,7 @@
 {
     "title": "Bolt strength home use adjustable bench",
-    "path": "./images/Bolt-strength-home-use-adjustable-bench.jpeg",
-    "page": "./pages/preview_item.html",
+    "path": "../images/Bolt-strength-home-use-adjustable-bench.jpeg",
+    "page": "../pages/preview_item.html",
     "rating": 3.5,
     "id": "eight",
     "price" : "€185.00",
