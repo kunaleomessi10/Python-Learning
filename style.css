@@ -60,12 +60,23 @@ p{
     padding-left: 25px;
     padding-right: 25px;
 }
-.row{
+.gym-row{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: space-around;
+ 
+}
+
 .col-2{
     flex-basis: 50%;
     min-width: 300px;
@@ -113,8 +124,6 @@ p{
 }
 
 .smallcontainer{
-    max-width: 1080px;
-    margin-left: 150px;
     padding-left: 25px;
     padding-right: 25px;
 }
