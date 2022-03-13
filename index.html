@@ -21,23 +21,32 @@
 </head>
 <body>
 <div class="header">
-    <div class="container">
-        <div class="navbar">
-            <div class="logo">
-                <a href="index.html"><img src="images/abb.png" width="125px"/></a>
-            </div>
-            <nav>
-                <ul id="MenuItems">
-                    <li><a class="under" href="index.html">Home</a></li>
-                    <li><a href="/pages/shop.html">Shop</a></li>
-                    <li><a href="/pages/contact.html">Contact</a></li>
-                </ul>
-            </nav>
-            <a class="under" href="/pages/cart.html"
-            ><img src="images/cart.png" width="30px" height="30x"
-            /></a>
-            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()"/>
+    <nav class="navbar navbar-expand-lg navbar-light">
+
+        <a class="navbar-brand" href="index.html">
+            <img src="images/abb.png" width="125" alt="">
+        </a>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/pages/contact.html">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/pages/contact.html">Contact<span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+
+            <a class="s my-2 my-lg-0" href="/pages/cart.html">
+                <img src="images/cart.png" width="30px" height="30x"/>
+            </a>
+            <form class="form-inline ">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
         </div>
+    </nav>
+    <div class="container">
         <div class="row">
             <div class="col-2">
                 <h1>Give Your Workout<br/>A New Style!</h1>
@@ -52,8 +61,6 @@
         </div>
     </div>
 </div>
-
-<input class="form-control" type="text" placeholder="Search" aria-label="Search"/>
 
 <!----Gym Life--->
 
@@ -116,7 +123,7 @@
     var MenuItems = document.getElementById("Menuitems");
     MenuItems.style.maxHeight = "0px";
 
-    function menutoggle() {
+    function menuToggle() {
         if (MenuItems.style.maxHeight == "0px") {
             MenuItems.style.maxHeight = "200px";
         } else {
