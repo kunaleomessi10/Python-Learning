@@ -10,7 +10,7 @@ function getEquipments() {
             data.forEach((gymItem) => {
                 $('.gym-row').append(` <div class="col-3">
        <a href=${gymItem.page}><img src=${gymItem.path}> </a>
-       <button type="button" id="button" onclick="loadPreviewPage('${gymItem.page}','${gymItem.id}')" > Preview ${gymItem.title} </button>
+       <button type="button" id="button" onclick="loadPreviewPage('${gymItem.page}','${gymItem.id}')" > Preview </button>
        <h4>${gymItem.title}</h4></a>
        <div class="rating">
            <i class="fas fa-star"></i>
