@@ -1,17 +1,31 @@
 $(document).ready(() => {
     getEquipments()
+    prepareSearch()
 });
+
+function search(data) {
+    $(function () {
+        $("#searchWord").autocomplete({
+            source: data,
+            select: function( event, ui ) {
+                sessionStorage.setItem("path",ui.item.id)
+                window.location = ui.item.page;
+            }
+        });
+    });
+}
 
 function getEquipments() {
     $.ajax({
         url: "assets/json/equipments.json",
         dataType: "json",
         success: function (data) {
+            prepareSearch(data);
             data.forEach((gymItem) => {
                 $('.gym-row').append(` <div class="col-3">
        <a href=${gymItem.page}><img src=${gymItem.path}> </a>
        <button type="button" id="button" onclick="loadPreviewPage('${gymItem.page}','${gymItem.id}')" > Preview </button>
-       <h4>${gymItem.title}</h4></a>
+       <h4>${gymItem.label}</h4></a>
        <div class="rating">
            <i class="fas fa-star"></i>
            <i class="fas fa-star"></i>
@@ -23,6 +37,16 @@ function getEquipments() {
    </div>`)
             })
 
+        }
+    });
+}
+
+function prepareSearch() {
+    $.ajax({
+        url: "assets/json/equipments.json",
+        dataType: "json",
+        success: function (data) {
+            search(data);
         }
     });
 }

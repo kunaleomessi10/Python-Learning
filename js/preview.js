@@ -13,7 +13,7 @@ function composePreviewHtml(id) {
     <div class="row">
         <div class="col-2">
             <img src="${data.path}" width="50%">
-            <h1>${data.title}</h1>
+            <h1>${data.label}</h1>
             <h4>€160.00</h4>
              <button type="button" id="button" onclick="addToCart('${data.id}')">Add to Cart</button>
             <h3>Product Details</h3>
@@ -22,7 +22,7 @@ function composePreviewHtml(id) {
     </div>
 </div>
 
-<div class="smallcontainer">s
+<div class="smallcontainer">
     <div class="row">
         <div class="col-4">
             <a href="/html/Bolt-Strength-Dumbbells.html"><img src="/images/Bolt-Strength-Dumbbells.png"> </a>

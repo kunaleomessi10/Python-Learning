@@ -28,28 +28,28 @@
     "id": "four"
   },
   {
-    "label": "Bolt Strength Dumbbells",
+    "title": "Bolt Strength Dumbbells",
     "path": "./images/Bolt-Strength-Dumbbells.png",
     "page": "./pages/preview_item.html",
     "rating": 4,
     "id": "five"
   },
   {
-    "label": "Bolt Strength Ez Curl Barbell",
+    "title": "Bolt Strength Ez Curl Barbell",
     "path": "./images/Bolt-Strength-Ez-Curl-Barbell.jpeg",
     "page": "./pages/preview_item.html",
     "rating": 4.5,
     "id": "six"
   },
   {
-    "label": "Fleck Bumper Plates",
+    "title": "Fleck Bumper Plates",
     "path": "./images/Fleck-Bumper-Plates.png",
     "page": "./pages/preview_item.html",
     "rating": 4,
     "id": "seven"
   },
   {
-    "label": "Bolt strength home use adjustable bench",
+    "title": "Bolt strength home use adjustable bench",
     "path": "./images/Bolt-strength-home-use-adjustable-bench.jpeg",
     "page": "./pages/preview_item.html",
     "rating": 3.5,
