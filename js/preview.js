@@ -15,7 +15,7 @@ function composePreviewHtml(id) {
             <img src="${data.path}" width="50%">
             <h1>${data.label}</h1>
             <h4>€160.00</h4>
-             <button type="button" id="button" onclick="addToCart('${data.id}')">Add to Cart</button>
+             <button type="button" id="button" onclick="addToCart('${data.id}')">Reserve</button>
             <h3>Product Details</h3>
             <p>${data.description}</p>
         </div>

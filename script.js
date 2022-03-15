@@ -1,14 +1,13 @@
 $(document).ready(() => {
     getEquipments()
-    prepareSearch()
 });
 
-function search(data) {
+function prepareSearch(data) {
     $(function () {
         $("#searchWord").autocomplete({
             source: data,
-            select: function( event, ui ) {
-                sessionStorage.setItem("path",ui.item.id)
+            select: function (event, ui) {
+                sessionStorage.setItem("path", ui.item.id)
                 window.location = ui.item.page;
             }
         });
@@ -17,11 +16,12 @@ function search(data) {
 
 function getEquipments() {
     $.ajax({
-        url: "assets/json/equipments.json",
+        url: "assets/json/equipment.json",
         dataType: "json",
         success: function (data) {
             prepareSearch(data);
             data.forEach((gymItem) => {
+                prepareSearch(data);
                 $('.gym-row').append(` <div class="col-3">
        <a href=${gymItem.page}><img src=${gymItem.path}> </a>
        <button type="button" id="button" onclick="loadPreviewPage('${gymItem.page}','${gymItem.id}')" > Preview </button>
@@ -41,17 +41,7 @@ function getEquipments() {
     });
 }
 
-function prepareSearch() {
-    $.ajax({
-        url: "assets/json/equipments.json",
-        dataType: "json",
-        success: function (data) {
-            search(data);
-        }
-    });
-}
-
 function loadPreviewPage(page, id) {
-    sessionStorage.setItem("path",id)
+    sessionStorage.setItem("path", id)
     window.location = page
 }
