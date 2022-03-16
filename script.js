@@ -1,5 +1,5 @@
 $(document).ready(() => {
-    getEquipments()
+    getEquipment()
 });
 
 function prepareSearch(data) {
@@ -14,7 +14,7 @@ function prepareSearch(data) {
     });
 }
 
-function getEquipments() {
+function getEquipment() {
     $.ajax({
         url: "assets/json/equipment.json",
         dataType: "json",
@@ -33,10 +33,8 @@ function getEquipments() {
            <i class="fas fa-star"></i>
            <i class="fas fa-star"></i>
        </div>
-       <p>$70.00</p>
-   </div>`)
+       <p>$70.00</p></div>`)
             })
-
         }
     });
 }
