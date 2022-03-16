@@ -142,5 +142,4 @@ function addToCart(id) {
     }
     cart.push({'id': id});
     localStorage.setItem('cart', JSON.stringify(cart));
-
 }
