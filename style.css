@@ -7,6 +7,45 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.navbar li {
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav li a:hover,
+nav li a.under{
+    color: darkred;
+}
+
+nav li a.under::after,
+nav li a:hover::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: darkred;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
 
 a{
     text-decoration: none;
