@@ -22,18 +22,17 @@ function getEquipment() {
             prepareSearch(data);
             data.forEach((gymItem) => {
                 prepareSearch(data);
-                $('.gym-row').append(` <div class="col-3">
-       <a href=${gymItem.page}><img src=${gymItem.path}> </a>
-       <button type="button" id="button" onclick="loadPreviewPage('${gymItem.page}','${gymItem.id}')" > Preview </button>
-       <h4>${gymItem.label}</h4></a>
-       <div class="rating">
-           <i class="fas fa-star"></i>
-           <i class="fas fa-star"></i>
-           <i class="fas fa-star"></i>
-           <i class="fas fa-star"></i>
-           <i class="fas fa-star"></i>
-       </div>
-       <p>$70.00</p></div>`)
+                $('.gym-row').append(`       
+       <div class="card  col-md-3" onclick="loadPreviewPage('${gymItem.page}','${gymItem.id}')">
+            <div class="d-flex sale ">
+                <div class="btn" onclick="loadPreviewPage('${gymItem.page}','${gymItem.id}')">Preview</div>
+            </div>
+            <img class='mx-auto img-thumbnail' src="${gymItem.path}"/>
+            <div class="card-body text-center mx-auto">
+                <h5 class="card-title">${gymItem.label}</h5>
+                <p class="card-text">${gymItem.label}</p>
+            </div>
+        </div>`)
             })
         }
     });

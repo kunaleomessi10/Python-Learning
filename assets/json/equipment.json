@@ -4,55 +4,63 @@
     "path": "./images/Dumbbell-set.jpeg",
     "page": "./pages/preview_item.html",
     "rating": 3,
-    "id": "one"
+    "id": "one",
+    "price" : "€679.00"
   },
   {
     "label": "5-50KG Dumbbell Bundle",
     "path": "./images/5-50KG-Dumbbell-Bundle.png",
     "page": "./pages/preview_item.html",
     "rating": 3.5,
-    "id": "two"
+    "id": "two",
+    "price" : "€39.00"
   },
   {
     "label": "7ft Olympic Bar",
     "path": "./images/7ft-Olympic-Bar.jpeg",
     "page": "./pages/preview_item.html",
     "rating": 5,
-    "id": "three"
+    "id": "three",
+    "price" : "€67.00"
   },
   {
     "label": "150kg Bumper Plate Set & 7ft Bar",
     "path": "./images/150kg-Bumper-Plate-Set-&-7ft-Bar.jpeg",
     "page": "./pages/preview_item.html",
     "rating": 4.5,
-    "id": "four"
+    "id": "four",
+    "price" : "€209.00"
   },
   {
     "label": "Bolt Strength Dumbbells",
     "path": "./images/Bolt-Strength-Dumbbells.png",
     "page": "./pages/preview_item.html",
     "rating": 4,
-    "id": "five"
+    "id": "five",
+    "price" : "€7.99"
   },
   {
     "label": "Bolt Strength Ez Curl Barbell",
     "path": "./images/Bolt-Strength-Ez-Curl-Barbell.jpeg",
     "page": "./pages/preview_item.html",
     "rating": 4.5,
-    "id": "six"
+    "id": "six",
+    "price" : "€39.00"
   },
   {
     "label": "Fleck Bumper Plates",
     "path": "./images/Fleck-Bumper-Plates.png",
     "page": "./pages/preview_item.html",
     "rating": 4,
-    "id": "seven"
+    "id": "seven",
+    "price" : "€9.00"
   },
   {
     "label": "Bolt strength home use adjustable bench",
     "path": "./images/Bolt-strength-home-use-adjustable-bench.jpeg",
     "page": "./pages/preview_item.html",
     "rating": 3.5,
-    "id": "eight"
+    "id": "eight",
+    "price" : "€19.00"
   }
 ]
