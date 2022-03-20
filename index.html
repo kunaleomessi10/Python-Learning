@@ -20,25 +20,28 @@
                 aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
+
         <a class="navbar-brand" href="index.html">
             <img src="images/abb.png" width="125" alt="">
         </a>
-
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="pages/contact.html">Contact<span class="sr-only">(current)</span></a>
+            </li>
+        </ul>
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="pages/contact.html">Contact<span class="sr-only">(current)</span></a>
+            <ul class="navbar-nav ms-auto">
+                <li  class="nav-item">
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-2" id="searchWord" type="search" placeholder="Search" aria-label="Search">
+                    </form>
                 </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-2" id="searchWord" type="search" placeholder="Search" aria-label="Search">
-            </form>
         </div>
     </nav>
-
     <div class="row">
         <div class="col-md-2">
             <h1>Give Your Workout<br/>A New Style!</h1>
