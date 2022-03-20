@@ -30,7 +30,7 @@ function getEquipment() {
             <img class='mx-auto img-thumbnail' src="${gymItem.path}"/>
             <div class="card-body text-center mx-auto">
                 <h5 class="card-title">${gymItem.label}</h5>
-                <p class="card-text">${gymItem.label}</p>
+                <p class="card-text">${gymItem.price}</p>
             </div>
         </div>`)
             })

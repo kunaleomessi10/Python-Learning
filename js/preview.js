@@ -9,36 +9,30 @@ function composePreviewHtml(id) {
         dataType: "json",
         success: function (data) {
             $('.details').append(`
-<div class="smallcontainer">
-    <div class="row">
-        <div class="col-2">
-            <img src="${data.path}" width="10%">
-            <h1>${data.label}</h1>
-            <h4>${data.price}</h4>
-            <div class="btn" onclick="addToCart('${data.id}')">RESERVE</div>
-            <h3>Product Details</h3>
-            <p>${data.description}</p>
-        </div>
+<div class="preview-container">
+  <!-- Left Column Image -->
+  <div class="left-column">
+    <img src="${data.path}">
+  </div>
+  
+  <!-- Right Column -->
+  <div class="right-column">
+ 
+    <!-- Product Description -->
+    <div class="product-description">
+      <h1>${data.label}</h1>ˆ
+      <p>${data.description}</p>
     </div>
+ 
+    <!-- Product Pricing -->
+    <div class="product-price">
+      <span>${data.price}</span>
+      <div onclick="addToCart('${data.id}')" class="btn-reserve">Reserve</div>
+    </div>
+  </div>
+  
 </div>
 
-<!------footer------>
-<div class="footer">
-    <div class="container">
-        <div class="row">
-            <div class="footer-col-1">
-                <img src="/images/abb.png" width="125px">
-                <p>Benifits & Pleasure of gym equipments available to many.</p>
-            </div>
-            <div class="footer-col-2">
-                <h3>Follow Us</h3>
-                <li>Facebook</li>
-                <li>Instagram</li>
-            </div>
-        </div>
-    </div>
-
-</div>
 `)
         }
     });
