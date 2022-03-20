@@ -9,14 +9,14 @@ function composePreviewHtml(id) {
         dataType: "json",
         success: function (data) {
             $('.details').append(`
-<div class="preview-container">
+<div class="row">
   <!-- Left Column Image -->
-  <div class="left-column">
-    <img src="${data.path}">
+  <div class="col-md-2">
+    <img width="350px" src="${data.path}">
   </div>
   
   <!-- Right Column -->
-  <div class="right-column">
+  <div class="right-column col-md-4">
  
     <!-- Product Description -->
     <div class="product-description">

@@ -226,26 +226,6 @@ h4 {
 }
 
 @media only screen and (max-width: 800px) {
-    nav ul {
-        position: absolute;
-        top: 70px;
-        left: 0;
-        background: #333;
-        width: 100%;
-        overflow: hidden;
-        transition: max-height 0.5s;
-    }
-
-    nav ul li {
-        display: block;
-        margin-right: 50px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-
-    nav ul li a {
-        color: #fff;
-    }
 
     .media-icon {
         display: block;
@@ -381,23 +361,6 @@ ul {
     font-size: 22px
 }
 
-
-
-/* Basic Styling */
-html, body {
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-}
-
-.preview-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 15px;
-    display: flex;
-}
-
 /* Columns */
 .left-column {
     width: 65%;
@@ -405,7 +368,6 @@ html, body {
 }
 
 .right-column {
-    width: 35%;
     margin-top: 60px;
 }
 
@@ -453,7 +415,6 @@ html, body {
 
 /* Product Price */
 .product-price {
-    display: flex;
     align-items: center;
 }
 
@@ -463,5 +424,4 @@ html, body {
     color: #43474D;
     margin-right: 20px;
 }
-
 
